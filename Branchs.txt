@@ -1,0 +1,13 @@
+O que é uma Branch?
+De maneira simples, Branch é uma ramificação do projeto
+
+Criar Branch LOCALMENTE
+git checkout -b 'NOME_NOVA_BRANCH' -> cria uma branch baseado na já existente
+
+git branch -> lista as branchs do repositório
+
+git branch -v -> mostra os últimos commits das branchs
+
+git branch -d NOME_BRANCH -> apaga branch
+
+git push --set-upstream origin NOME_BRANCH -> Envia para repositório remoto 

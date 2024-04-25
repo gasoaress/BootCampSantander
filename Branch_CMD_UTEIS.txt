@@ -1,0 +1,5 @@
+Branchs - Comandos Úteis
+
+git facth
+
+git diff
