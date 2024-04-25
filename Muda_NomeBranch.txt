@@ -1,0 +1,4 @@
+Mudar nome BRANCH padrão do repositório
+
+git config init.defaultBranch (mostra a branch)
+git config --global init.defaultBranch NOME_BRANCH (troca nome branch)

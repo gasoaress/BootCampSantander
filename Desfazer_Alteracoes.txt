@@ -1,0 +1,30 @@
+Apagar Arquivo usando terminal git
+	rm -rf NOME_ARQUIVO
+---------------------------------------------------------
+Desfazer alterações em repositório local
+	Ex: O estado do meu arquivo está como modified.
+
+	git restore nome_Arquivo.extensao
+---------------------------------------------------------
+Alterar mensagem do Ultimo Commit
+git commit --amend -m"NOVA MENSAGEM"
+git commit --amend -> Abre o Editor (MINGW) apertar I (Insert) mudar. Sair = :wq 
+-----------------------------------------------------------------------------
+Desfazer Commit Restaurando para Commit anterior
+
+git log (aparece histórico de commits), copiar a HASH do commit
+
+git reset soft HASH_DO_COMMIT -> Pega as alterações do meu Commit e joga para a área
+de preparação
+	 
+git reset --mixed HASH_DO_COMMIT  -> Pega os arquivos do COMMIT anterior e adiciona como UNTRACKED. 
+	Comportamento padrão do git reset. 
+git reset --hard HASH_DO_COMMIT  -> Ignora os arquivos do COMMIT anterior e DESFAZ/APAGA eles.
+
+Retira Arquivo do Staged
+git reset NOME_ARQUIVO.EXTENSAO -> Retira de staged e vai para untracked
+
+git restore NOME_ARQUIVO.EXTENSAO 
+
+-----------------------------------------------------------------------------
+

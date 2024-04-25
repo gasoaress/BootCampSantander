@@ -1,0 +1,9 @@
+Conectar Repositorio local com o remoto
+
+git remote add origin URL
+
+Clonar Repositório
+git clone URL
+
+Cloanar um Branch
+git clone URL --branch NOME_DA_BRANCH --single-branch
